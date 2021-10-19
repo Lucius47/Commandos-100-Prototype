@@ -13,6 +13,7 @@ public class UIController : MonoBehaviour
 	private void Awake()
 	{
 		Messenger.AddListener(GameEvent.ENEMY_HIT, OnEnemyHit);
+		
 	}
 	private void Start()
 	{

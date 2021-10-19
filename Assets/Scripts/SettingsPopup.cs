@@ -19,13 +19,16 @@ public class SettingsPopup : MonoBehaviour
 	}
 
 	
+	
 	public void Open()
 	{
+		print("Open");
 		gameObject.SetActive(true);
 	}
 
 	public void Close()
 	{
+		print("Close");
 		gameObject.SetActive(false);
 	}
 

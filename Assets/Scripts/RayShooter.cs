@@ -58,6 +58,7 @@ public class RayShooter : MonoBehaviour
 	{
         GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
         sphere.transform.position = pos;
+        sphere.transform.localScale = Vector3.one * 0.2f;
 
         yield return new WaitForSeconds(1);
 
